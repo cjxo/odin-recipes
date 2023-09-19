@@ -1,7 +1,5 @@
 body {
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 5%;
+    margin: 0% 15% 5%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -11,9 +9,21 @@ h1, h2, h3, h4, h5, h6 {
 
 .title {
     text-align: center;
+    border: 2px dashed black;
+    padding: 10px;
+    border-radius: 25px;
+    margin-bottom: 5%;
 }
 
 img {
     width: 25%;
     height: auto;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+ul, ol {
+    margin-bottom: 5%;
 }
